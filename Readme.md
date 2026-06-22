@@ -319,41 +319,25 @@ SELECT * FROM students;
 
 ---
 ## Screenshots
-
 ### 1. VPC Creation
-
 This screenshot shows the creation of a custom VPC with public and private subnets.
 
 ![VPC Creation](img/vpc-creation.png)
-
 ### 2. Nginx Configuration
-
 Nginx configured as a reverse proxy in the Web Tier.
-
 ![Nginx Configuration](img/nginx-configuration.png)
-
 ### 3. Tomcat Deployment
-
 Apache Tomcat deployed in the Application Tier to host the Java application.
-
 ![Tomcat Deployment](img/app.png)
-
 ### 4. RDS Database Creation
-
 Amazon RDS MySQL database instance created in the Database Tier.
-
 ![RDS Database Creation](img/RDS-creation.png)
-
 ### 5. Application Output
-
 Successful execution of the application through the browser.
-
 ![Output](img/output.png)
-
 ### 6. Database Verification
 
-Successful database connectivity established between the application and Amazon RDS MySQL instance, validating the integration of the Application and Database tiers.
-
+Successful database connection established between the application and Amazon RDS MySQL database instance.
 ![Database](img/db.png)
 ## Key Features
 
