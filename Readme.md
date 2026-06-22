@@ -337,7 +337,8 @@ Successful execution of the application through the browser.
 ![Output](img/output.png)
 ### 6. Database Verification
 
-Successful database connection established between the application and Amazon RDS MySQL database instance.
+Successful database connectivity established between the application and Amazon RDS MySQL instance, validating the integration of the Application and Database tiers.
+
 ![Database](img/db.png)
 ## Key Features
 
