@@ -318,23 +318,55 @@ SELECT * FROM students;
 ```
 
 ---
-## Screenshots
-### 1. VPC Creation
-This screenshot shows the creation of a custom VPC with public and private subnets.
+## 📸 Screenshots
 
-![VPC Creation](img/vpc-creation.png)
-### 2. Nginx Configuration
-Nginx configured as a reverse proxy in the Web Tier.
-![Nginx Configuration](img/nginx-configuration.png)
-### 3. Tomcat Deployment
-Apache Tomcat deployed in the Application Tier to host the Java application.
-![Tomcat Deployment](img/app.png)
-### 4. RDS Database Creation
-Amazon RDS MySQL database instance created in the Database Tier.
-![RDS Database Creation](img/RDS-creation.png)
-### 5. Application Output
-Successful execution of the application through the browser.
-![Output](img/output.png)
+### 1. VPC Creation
+
+This screenshot shows the creation and configuration of the custom VPC used for the three-tier architecture.
+
+![VPC Creation](img/vpc%20creation.png)
+
+### 2. Subnet Creation
+
+Public and private subnets were created to isolate the Web Tier, Application Tier, and Database Tier.
+
+![Subnet Creation](img/subnet%20creation.png)
+
+### 3. Security Group Configuration
+
+Security Groups were configured to control traffic flow between different layers of the architecture.
+
+![Security Group Configuration](img/sg%20creation.png)
+
+### 4. Internet Gateway Creation
+
+An Internet Gateway was attached to the VPC to provide internet access to resources in the public subnet.
+
+![Internet Gateway Creation](img/internet%20getway%20creation.png)
+
+### 5. NAT Gateway Creation
+
+A NAT Gateway was configured to allow instances in private subnets to securely access the internet.
+
+![NAT Gateway Creation](img/NAT%20getway%20creation.png)
+
+### 6. RDS Database Creation
+
+Amazon RDS MySQL instance was created and configured as the Database Tier.
+
+![RDS Database Creation](img/RDS%20creation.png)
+
+### 7. RDS Connection with EC2
+
+This screenshot demonstrates successful connectivity between the EC2 application server and the Amazon RDS database.
+
+![RDS Connection](img/RDS%20connection%20with%20ec2.png)
+
+### 8. Application Output
+
+Successful deployment and execution of the application through the browser.
+
+![Application Output](img/output.png)
 ### 6. Database Verification
 
 Successful database connection established between the application and Amazon RDS MySQL database instance.
