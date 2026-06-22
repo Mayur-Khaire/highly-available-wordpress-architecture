@@ -367,10 +367,7 @@ This screenshot demonstrates successful connectivity between the EC2 application
 Successful deployment and execution of the application through the browser.
 
 ![Application Output](img/output.png)
-### 6. Database Verification
 
-Successful database connection established between the application and Amazon RDS MySQL database instance.
-![Database](img/db.png)
 ## Key Features
 
 * Secure 3-Tier Architecture
